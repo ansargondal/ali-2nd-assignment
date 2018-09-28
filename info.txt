@@ -1,0 +1,40 @@
+user
+ - id (pk)
+ - name (limit 70)
+ - email ( limit 150)
+ - password ( 255)
+
+ Follow
+ - user_id  (PK)
+ - follower_id (PK)
+
+ Post
+  - id   (PK)
+  - user_id (FK)
+  - title
+  - post_date (datetime)
+  - in_reply_to   (Nullable FK)
+  - text  (Limit 150 chars)
+
+Requirements
+
+  - Each table should have 3 to 6 record
+  - user hash_password function
+  - Include as user 'tutor' who can login with password 'guest'
+  - Username should be unique
+  - password should be at least 5 chars
+
+TIMELINE
+   - Show list of list of 10 post from all users. Most recent posts.
+   - If post is in reply of another post include a link to the original
+
+
+  Functionality
+
+D  - Sign up
+D  - Login
+D  - New Post
+D  - Follow
+D  - Logged In users should see posts only from followed users. Limit to last 10 posts.
+  - Reply to a post
+  - COUNT, SUM, SUB QUERIES or NESTED SELECT STATEMENT, INNER JOINS, OUTER JOINS

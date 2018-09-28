@@ -1,0 +1,51 @@
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.better-rating li {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.better-rating .content {
+    display: inline-block;
+    max-width: 68%;
+    vertical-align: top;
+    background: #f7f7f7;
+    padding: 20px;
+}
+
+.profile-rating-wrapper {
+    display: inline-block;
+    text-align: center;
+}
+
+#better-rating-form input, #better-rating-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px;
+    border: 1px solid #a5a5a5;
+}
+
+.rating i {
+    cursor: pointer;
+}
+
+.selected {
+    color: #ff3f00;
+}
+
+.hover {
+    color: darkorange;
+}
+
+.rating i:hover {
+    color: darkorange;
+}
