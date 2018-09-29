@@ -8,7 +8,7 @@ session_start();
 
 define('DBHOST', 'localhost');
 define('DBUSER', 'root');
-define('DBPASS', '430774');
+define('DBPASS', 'Hatmalangi:P');
 define('DBNAME', 'ali_30332628');
 
 try {
